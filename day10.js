@@ -51,3 +51,5 @@ console.log(arr3.length);
 const arr2 = arr.reverse(); //mutates
 console.log(arr2);
 console.log(arr);
+
+
