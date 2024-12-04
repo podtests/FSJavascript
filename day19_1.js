@@ -18,7 +18,6 @@ age++;
 console.log(age);  //81
 */
 //ES Module imports:
-import {login, marks}  from "./day19.js"
-
-login();
+const {login: myLogin, marks: myMarks}  = require("./day19.js");
+console.log(myMarks);
    

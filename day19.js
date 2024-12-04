@@ -24,7 +24,7 @@ printMarks();
 
 
 // export 1 or multiple items
-//module.exports = {login}
+//module.exports = {login, }
 //module.exports = {fisrtName}
 
 
@@ -35,4 +35,4 @@ function login() {
 
 const marks = [34, 78, 98];
 
-export {login, marks}
+module.exports = {login , marks}
